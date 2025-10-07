@@ -13,7 +13,7 @@ Original dataset:
 
 - **algorithms**
   
-Contains the source codes of Machine Learning models (MLP, GRU, ARIMA) and their hyperparameter optimizers (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru .py** and **hypeas_mlp.py**) for local execution.
+Contains the source codes of Machine Learning models (MLP, GRU, ARIMA, Prophet) and their hyperparameter optimizers (*Grid Search* (**grid_search.py**), *Tree of parzen estimators (TPE)* (**hypeas_gru .py** and **hypeas_mlp.py**) for local execution.
 
 To execute the algorithms, you will need an environment with the following libraries below:
 
@@ -29,6 +29,7 @@ The algorithms below are available as an alternative for online execution:
 - **MLP_exec.ipynb**
 - **GRU_exec.ipynb**
 - **ARIMA_exec.ipynb**
+- **Prophet_exec.ipynb**
 
 They correspond to the source code of each Machine Learning model. They are in a similar format to the Jupyter notebook.
 When accessing the file page, select *Open in Colab* to access the model in execution mode in the *Google Colaboratory* environment.
