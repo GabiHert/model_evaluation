@@ -21,6 +21,7 @@ To execute the algorithms, you will need an environment with the following libra
 - **SKlearn** https://scikit-learn.org
 - **Hyperopt** http://hyperopt.github.io/hyperopt/
 - **Statsmodels** https://www.statsmodels.org/stable/index.html
+- **Prophet** https://facebook.github.io/prophet/
 - **Matplotlib** https://matplotlib.org/
 - **Pandas** https://pandas.pydata.org/
 - **Numpy** http://www.numpy.org/
