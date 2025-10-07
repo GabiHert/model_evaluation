@@ -5,10 +5,15 @@ from math import sqrt
 from pandas import Series
 from statsmodels.tsa.arima_model import ARIMA
 from sklearn.metrics import mean_squared_error
+import datetime
 
 filename = str(sys.argv[1])
 log = open('log_grid.txt','w') 
 log.write(filename)
+
+# Custom date parser for NASA log format
+def date_parser(x):
+    return datetime.datetime.strptime(x, '%d/%b/%Y:%H:%M:%S')
 
 # evaluate an ARIMA model for a given order (p,d,q)
 def evaluate_arima_model(X, arima_order):
@@ -50,7 +55,7 @@ def evaluate_models(dataset, p_values, d_values, q_values):
 
 # load dataset
 #series = Series.from_csv(filename, header=0)
-series = Series.from_csv(filename, header=0, parse_dates=[0], index_col=0)
+series = Series.from_csv(filename, header=0, parse_dates=[0], index_col=0, date_parser=date_parser)
 # evaluate parameters
 p_values = [0, 1, 2, 4, 6, 8, 10]
 d_values = range(0, 3)

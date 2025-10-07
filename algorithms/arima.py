@@ -17,8 +17,12 @@ q = int(sys.argv[4])
 #perc = float(sys.argv[5])
 print p,d,q
 
+# Custom date parser for NASA log format
+def date_parser(x):
+    return datetime.datetime.strptime(x, '%d/%b/%Y:%H:%M:%S')
+
 #read the csv file
-dataset = read_csv(filename, header=0, parse_dates=[0], index_col=0, squeeze=True)
+dataset = read_csv(filename, header=0, parse_dates=[0], index_col=0, squeeze=True, date_parser=date_parser)
 
 # split into train and test sets
 X = dataset.values
