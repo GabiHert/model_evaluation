@@ -1,0 +1,13 @@
+Best Prophet Hyperparameters
+==================================================
+
+changepoint_prior_scale: 0.01
+daily_seasonality: True
+seasonality_mode: multiplicative
+seasonality_prior_scale: 0.1
+
+Performance Metrics:
+RMSE: 22.51
+MAE: 16.72
+R2: -0.0077
+MSE: 506.58

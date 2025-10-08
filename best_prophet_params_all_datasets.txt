@@ -1,0 +1,172 @@
+Best Prophet Hyperparameters for Each Dataset
+================================================================================
+
+
+trace1.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.01
+    daily_seasonality: True
+    seasonality_mode: multiplicative
+    seasonality_prior_scale: 0.1
+  Performance:
+    RMSE: 22.51
+    MAE: 16.72
+    R²: -0.0077
+    MSE: 506.58
+  ------------------------------------------------------------
+
+trace5.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.05
+    daily_seasonality: True
+    seasonality_mode: multiplicative
+    seasonality_prior_scale: 0.1
+  Performance:
+    RMSE: 57.54
+    MAE: 47.54
+    R²: -0.0911
+    MSE: 3310.91
+  ------------------------------------------------------------
+
+trace10.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.5
+    daily_seasonality: True
+    seasonality_mode: multiplicative
+    seasonality_prior_scale: 1.0
+  Performance:
+    RMSE: 126.00
+    MAE: 98.89
+    R²: 0.4627
+    MSE: 15875.54
+  ------------------------------------------------------------
+
+trace15.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.001
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 10.0
+  Performance:
+    RMSE: 165.35
+    MAE: 128.88
+    R²: 0.7309
+    MSE: 27340.11
+  ------------------------------------------------------------
+
+trace20.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.001
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 0.1
+  Performance:
+    RMSE: 199.13
+    MAE: 155.24
+    R²: 0.8324
+    MSE: 39653.00
+  ------------------------------------------------------------
+
+trace25.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.001
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 1.0
+  Performance:
+    RMSE: 180.23
+    MAE: 133.60
+    R²: 0.9213
+    MSE: 32481.58
+  ------------------------------------------------------------
+
+trace30.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.001
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 1.0
+  Performance:
+    RMSE: 248.73
+    MAE: 188.53
+    R²: 0.8851
+    MSE: 61867.88
+  ------------------------------------------------------------
+
+trace35.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.001
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 0.01
+  Performance:
+    RMSE: 261.55
+    MAE: 205.68
+    R²: 0.9084
+    MSE: 68408.13
+  ------------------------------------------------------------
+
+trace40.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.001
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 0.1
+  Performance:
+    RMSE: 326.22
+    MAE: 270.60
+    R²: 0.8855
+    MSE: 106421.93
+  ------------------------------------------------------------
+
+trace45.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.01
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 1.0
+  Performance:
+    RMSE: 369.31
+    MAE: 294.43
+    R²: 0.8778
+    MSE: 136391.30
+  ------------------------------------------------------------
+
+trace50.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.01
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 10.0
+  Performance:
+    RMSE: 394.73
+    MAE: 332.83
+    R²: 0.8924
+    MSE: 155810.69
+  ------------------------------------------------------------
+
+trace55.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.01
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 1.0
+  Performance:
+    RMSE: 426.74
+    MAE: 327.85
+    R²: 0.8971
+    MSE: 182103.02
+  ------------------------------------------------------------
+
+trace60.csv:
+  Hyperparameters:
+    changepoint_prior_scale: 0.01
+    daily_seasonality: True
+    seasonality_mode: additive
+    seasonality_prior_scale: 1.0
+  Performance:
+    RMSE: 456.03
+    MAE: 366.45
+    R²: 0.8988
+    MSE: 207959.02
+  ------------------------------------------------------------
